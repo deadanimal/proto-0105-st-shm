@@ -1,0 +1,322 @@
+<div class="header pb-6">
+	<div class="container-fluid">
+		<div class="header-body">
+			<div class="row align-items-center py-4">
+				<div class="col-lg-6 col-7">
+					<h2 class="h2 text-dark d-inline-block mb-0">Data Submission</h2>
+
+					<nav aria-label="breadcrumb" class=" d-none d-md-inline-block ml-md-4">
+						<ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+							<li class=" breadcrumb-item">
+								<a href="javascript:void(0)"> <i class="fas fa-data text-dark"> </i> </a>
+							</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row ml-2 mr-2 mt--6 ml-2">
+  <div class="col-8">
+    <div class="card">
+      <div class="card-header bg-secondary">
+      <h3 class="m-0">Data receiced by quaterly<nav aria-label="breadcrumb" class=" d-none d-md-inline-block ml-1 md-4"></nav></h3>
+      </div>
+      <div class="card-body mb-2">
+        <div class="col-md-12 col-lg-5">
+          <div class="form-group">
+            <label class="form-control-label">Term of submission</label>
+            <select class="form-control custom-select">
+            <option hidden selected>Please pick</option>
+            <option>Quater 1</option>
+            <option>Quater 2</option>
+            <option>Quater 3</option>
+            <option>Quater 4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-5">
+                            <div class="form-group">
+                                <label class="form-control-label">Region</label>
+                                <select class="form-control custom-select">
+                                    <option hidden selected>Please pick</option>
+                                    <option>Penisular Malaysia</option>
+                                    <option>Sabah</option>
+                                    <option>Sarawak</option>
+                                </select>
+                            </div>
+                        </div>
+        </div>
+        <div class="row ml-4 mt--4">
+          <table id="customers">
+            <tr>
+              <th></th>
+              <th>Product</th>
+              <th>Opening Stock Quantity</th>
+              <th>Closing Stock Quantity</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Coal-Thermal-Electricity</td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Diesel-Thermal-Electricity</td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Electricity</td>
+             <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Electricity-Thermal-Coal</td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Electricity-Thermal-Diesel</td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Electricity-Thermal-Natural Gas</td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"
+                ></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Natural Gas-Thermal-Electricity</td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"></td>
+              <td><input 
+                  class="form-control"
+                  placeholder="1000 MT"
+                  formControlName="email"
+                  type="text"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="row ml-2">
+          
+					<a class="btn btn-sm btn-neutral ml-2 mt-4 mb-4" href="javascript:void(0)"> Save </a>
+
+					<a class="btn btn-sm btn-neutral mt-4 mb-4" href="javascript:void(0)">
+						Balancing Grid
+					</a>
+          <a class="btn btn-sm btn-neutral mt-4 mb-4" href="javascript:void(0)">
+						Balancing Grid (KTOE)
+					</a>
+				</div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header bg-secondary">
+        <h3 class="m-0">Data Status<nav aria-label="breadcrumb" class=" d-none d-md-inline-block ml-1 md-4"></nav></h3>
+      </div>
+      <div class="card-body">
+       <div class="chart">
+          <div class="amchart" id="piesub"></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row ml-2 mr-2">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-secondary">
+                    <h3 class="m-0">Search Parameter</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                            <div class="form-group">
+                                <label class="form-control-label">Term of submission</label>
+                                <select class="form-control custom-select">
+                                    <option hidden selected>Please pick</option>
+                                    <option>Quater 1</option>
+                                    <option>Quater 2</option>
+                                    <option>Quater 3</option>
+                                    <option>Quater 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">
+                            <div class="form-group">
+                                <label class="form-control-label">Region</label>
+                                <select class="form-control custom-select">
+                                    <option hidden selected>Please pick</option>
+                                    <option>Penisular Malaysia</option>
+                                    <option>Sabah</option>
+                                    <option>Sarawak</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">
+                            <div class="form-group">
+                                <label class="form-control-label">Status</label>
+                                <select class="form-control custom-select">
+                                    <option hidden selected>Please pick</option>
+                                    <option>Penisular Malaysia</option>
+                                    <option>Sabah</option>
+                                    <option>Sarawak</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">
+                            <div class="form-group">
+                                <label class="form-control-label">Date range</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                    </div>
+                                    <input 
+                                        type="text"
+                                        class="form-control"
+                                        bsDaterangepicker
+                                        
+                                        placeholder="Date range"
+                                        name="bsDaterangepicker"
+                                    >
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-2 d-flex align-items-center">
+                            <button class="btn btn-default" type="button">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="row ml-2 mr-2">
+        <div class="col">
+            <div class="card">
+                <div class="dataTables_wrapper py-4">
+                    <div class="row">
+                        
+                    </div>
+
+                    <ngx-datatable 
+                        class="bootstrap selection-cell"
+                        [columnMode]="'force'"
+                        [headerHeight]="50"
+                        [footerHeight]="50" 
+                        [rowHeight]="'auto'"
+                        [limit]="tableEntries != -1 ? tableEntries:undefined"
+                        [rows]="tableTemp" 
+                        
+                    >
+
+                        <ngx-datatable-column>
+                            <ng-template ngx-datatable-header-template>
+                                <span>User ID</span>
+                            </ng-template>
+                            <ng-template let-row="row" ngx-datatable-cell-template>
+                                {{row.user_id}}
+                            </ng-template>
+                        </ngx-datatable-column>
+                        <ngx-datatable-column name="Name"></ngx-datatable-column>
+                        <ngx-datatable-column name="Email"></ngx-datatable-column>
+                        <ngx-datatable-column>
+                            <ng-template ngx-datatable-header-template>
+                                <span>Joined At</span>
+                            </ng-template>
+                            <ng-template let-row="row" ngx-datatable-cell-template>
+                                {{row.joined_at}}
+                            </ng-template>
+                        </ngx-datatable-column>
+                        <ngx-datatable-column>
+                            <ng-template ngx-datatable-header-template>
+                                <span>User Type</span>
+                            </ng-template>
+                            <ng-template let-row="row" ngx-datatable-cell-template>
+                                {{row.user_type}}
+                            </ng-template>
+                        </ngx-datatable-column>
+                        <ngx-datatable-column>
+                            <ng-template ngx-datatable-header-template>
+                                <span>Status</span>
+                            </ng-template>
+                            <ng-template let-row="row" ngx-datatable-cell-template>
+                                <span *ngIf="row.is_active == 'Active'" class="badge badge-pill badge-success">Active</span>
+                                <span *ngIf="row.is_active == 'Inactive'" class="badge badge-pill badge-warning">Inactive</span>
+                            </ng-template>
+                        </ngx-datatable-column>
+                    </ngx-datatable>
+                </div>
+            </div>
+        </div>
+    </div>

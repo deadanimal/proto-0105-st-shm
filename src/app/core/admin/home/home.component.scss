@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 25%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box {
+    text-align: center;
+    margin-bottom: 2rem;
+    .logo {
+        max-height: 4rem;
+    }
+}
