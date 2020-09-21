@@ -2,6 +2,7 @@ import { Component, OnInit, NgZone, OnDestroy } from '@angular/core';
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,20 +12,20 @@ export class HomeComponent implements OnInit {
 
   private chart: any
 
-  itemsPerSlide = 5;
+  itemsPerSlide = 7;
   singleSlideOffset = true;
 
   slides = [
     {image: 'assets/img/logo/jata-johor.png'},
-    {image: 'assets/img/logo/lhdn-logo.png'},
-    {image: 'assets/img/logo/marin-logo.png'},
-    {image: 'assets/img/logo/mbpj-logo.png'},
-    {image: 'assets/img/logo/mbsp-logo.png'},
-    {image: 'assets/img/logo/pipeline-logo.png'},
-    {image: 'assets/img/logo/tnb-logo.png'},
-    {image: 'assets/img/logo/airsel-logo.png'},
     {image: 'assets/img/logo/jata-johor.png'},
-    {image: 'assets/img/logo/lhdn-logo.png'}
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'},
+    {image: 'assets/img/logo/jata-johor.png'}
   ];
 
   constructor(

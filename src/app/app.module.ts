@@ -21,6 +21,7 @@ import { PresentationModule } from './examples/presentation/presentation.module'
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { ComponentsModule } from './components/components.module';
     LeafletModule,
     PresentationModule,
     AccordionModule.forRoot(),
+    CarouselModule.forRoot(),
   ],
   declarations: [
     AppComponent, 
