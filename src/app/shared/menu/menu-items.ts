@@ -33,7 +33,7 @@ export const ROUTES: RouteInfo[] = [
   },
   {
     path: '/admin/management',
-    title: 'About',
+    title: 'About Us',
     type: 'sub',
     icontype: '',
     collapse: 'management',
@@ -55,15 +55,10 @@ export const ROUTES: RouteInfo[] = [
     type: 'link',
     icontype: ''
   },
-  {
-    path: '/admin/submission',
-    title: 'Data Submission',
-    type: 'link',
-    icontype: ''
-  },
+  
   {
     path: '/admin/contact',
-    title: 'Contact',
+    title: 'Contact Us',
     type: 'link',
     icontype: ''
   }
