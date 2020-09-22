@@ -267,17 +267,31 @@
 
                         <ngx-datatable-column>
                             <ng-template ngx-datatable-header-template>
-                                <span>User ID</span>
+                                <span>Year</span>
                             </ng-template>
                             <ng-template let-row="row" ngx-datatable-cell-template>
                                 {{row.user_id}}
                             </ng-template>
                         </ngx-datatable-column>
-                        <ngx-datatable-column name="Name"></ngx-datatable-column>
-                        <ngx-datatable-column name="Email"></ngx-datatable-column>
+                        <ngx-datatable-column>
+                        <ng-template ngx-datatable-header-template>
+                                <span>Crude Oil</span>
+                            </ng-template>
+                            <ng-template let-row="row" ngx-datatable-cell-template>
+                                {{row.name}}
+                            </ng-template>
+                        </ngx-datatable-column>
+                        <ngx-datatable-column>
+                        <ng-template ngx-datatable-header-template>
+                                <span>Petroleum Products</span>
+                            </ng-template>
+                            <ng-template let-row="row" ngx-datatable-cell-template>
+                                {{row.email}}
+                            </ng-template>
+                        </ngx-datatable-column>
                         <ngx-datatable-column>
                             <ng-template ngx-datatable-header-template>
-                                <span>Joined At</span>
+                                <span>Natural Gas</span>
                             </ng-template>
                             <ng-template let-row="row" ngx-datatable-cell-template>
                                 {{row.joined_at}}
@@ -285,7 +299,7 @@
                         </ngx-datatable-column>
                         <ngx-datatable-column>
                             <ng-template ngx-datatable-header-template>
-                                <span>User Type</span>
+                                <span>Coal & Coke</span>
                             </ng-template>
                             <ng-template let-row="row" ngx-datatable-cell-template>
                                 {{row.user_type}}
